@@ -7,7 +7,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using ConversorMoedas.Repository;
 
-namespace ConversorMoedas
+namespace ConversorMoedas.Services
 {
     public static class HttpCliente
     {
@@ -34,7 +34,7 @@ namespace ConversorMoedas
         }
 
 
-      
+
 
 
 

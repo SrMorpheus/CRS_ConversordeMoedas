@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Net.Http;
 using ConversorMoedas;
+using ConversorMoedas.Services;
 
 namespace WebAPIClient
 {
@@ -11,12 +12,15 @@ namespace WebAPIClient
         static async Task Main(string[] args)
         {
 
-            Moeda moeda = new Moeda("ZWD", "BRL", 100);
+            Moeda moeda = new Moeda("USD", "BRL", 100);
 
-            var teste = await HttpCliente.ProcessRepositories(moeda.QueryRequesicao());
+            Conversor conversor = new Conversor(moeda);
 
-            Console.WriteLine(teste.informacaoTaxa.Taxa);
+            await conversor.ConvertMoeda();
 
+            conversor.ListagemConversao();
+
+         
 
          
 

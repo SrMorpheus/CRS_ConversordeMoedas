@@ -44,6 +44,30 @@ namespace ConversorMoedas
         public bool ValidarMoeddaValor(string Valor)
         {
 
+
+            if(!Regex.IsMatch(Valor, @"^[0-9]+$"))
+            {
+                _descricaoErrors.Add("Error: Formato do valor inválido");
+                return false;
+
+
+            }
+            else
+            {
+                var valorDouble = double.Parse(Valor);
+
+                if(valorDouble <=0 )
+                {
+                    _descricaoErrors.Add("Error: valor precisa ser maior que 0");
+                    return false;
+
+                }
+
+            }
+
+
+
+
             return true;
         }
 
@@ -52,9 +76,29 @@ namespace ConversorMoedas
 
         private bool Formatomoeda(string moeda)
         {
-            return Regex.IsMatch(moeda, "^[A-Z]{3}$");
+            return Regex.IsMatch(moeda,@"^[A-Z]{3}$");
 
         }
+
+
+        public void Error()
+        {
+
+           var  erros = _descricaoErrors.Distinct();
+
+
+            foreach(var listaErros in erros)
+            {
+
+                Console.WriteLine(listaErros);
+
+
+            }
+
+
+
+        }
+
 
 
 
