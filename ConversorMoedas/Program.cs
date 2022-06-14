@@ -12,20 +12,53 @@ namespace WebAPIClient
         static async Task Main(string[] args)
         {
 
-            Moeda moeda = new Moeda("USD", "BRL", 100);
 
-            Conversor conversor = new Conversor(moeda);
-
-            await conversor.ConvertMoeda();
-
-            conversor.ListagemConversao();
-
-         
-
-         
+            try
+            {
 
 
-            
+                View view = new View();
+
+                await view.Main();
+
+
+
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine();
+
+
+                Console.WriteLine("Errp: Problema na conexão");
+
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine();
+
+                Console.WriteLine("Erro: Problema na operação de conversão");
+
+
+            }catch (Exception ex)
+            {
+                Console.WriteLine();
+
+                Console.WriteLine("Erro: Problena na conversão devido moedas inválidas");
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }

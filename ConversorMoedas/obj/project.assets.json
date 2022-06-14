@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\André\\.nuget\\packages\\": {}
+    "C:\\Users\\apoio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\André\\OneDrive\\Área de Trabalho\\Bruno\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
+      "projectUniqueName": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
       "projectName": "ConversorMoedas",
-      "projectPath": "C:\\Users\\André\\OneDrive\\Área de Trabalho\\Bruno\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
-      "packagesPath": "C:\\Users\\André\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\André\\OneDrive\\Área de Trabalho\\Bruno\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\obj\\",
+      "projectPath": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
+      "packagesPath": "C:\\Users\\apoio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\André\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\apoio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

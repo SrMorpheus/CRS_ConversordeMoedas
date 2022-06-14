@@ -28,3 +28,18 @@ C:\Users\André\OneDrive\Área de Trabalho\Bruno\Desafio\CRS_ConversordeMoedas\C
 C:\Users\André\OneDrive\Área de Trabalho\Bruno\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.pdb
 C:\Users\André\OneDrive\Área de Trabalho\Bruno\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.genruntimeconfig.cache
 C:\Users\André\OneDrive\Área de Trabalho\Bruno\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ref\ConversorMoedas.dll
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.exe
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.deps.json
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.runtimeconfig.json
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.dll
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\bin\Debug\net6.0\ref\ConversorMoedas.dll
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\bin\Debug\net6.0\ConversorMoedas.pdb
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.csproj.AssemblyReference.cache
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.AssemblyInfoInputs.cache
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.AssemblyInfo.cs
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.csproj.CoreCompileInputs.cache
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.dll
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ref\ConversorMoedas.dll
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.pdb
+C:\Users\apoio\Desktop\Bruno\Pessoal\CRS\Desafio\CRS_ConversordeMoedas\ConversorMoedas\obj\Debug\net6.0\ConversorMoedas.genruntimeconfig.cache

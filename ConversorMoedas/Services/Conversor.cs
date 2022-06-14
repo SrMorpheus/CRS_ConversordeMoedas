@@ -33,8 +33,9 @@ namespace ConversorMoedas.Services
 
         public void ListagemConversao()
         {
+            Console.WriteLine();
 
-            Console.WriteLine(_moeda.MoedaOrigem + " " + _moeda.Valor.ToString("C2") + " => " + _moeda.MoedaDestino + " " + _repositorio.Resultado.ToString("C2"));
+            Console.WriteLine(_moeda.MoedaOrigem + " " + _moeda.Valor.ToString("N2", new CultureInfo("pt-BR")) + " => " + _moeda.MoedaDestino + " " + _repositorio.Resultado.ToString("N2", new CultureInfo("pt-BR")));
 
             Console.WriteLine("Taxa: " + _repositorio.informacaoTaxa.Taxa.ToString("N6", new CultureInfo("pt-BR")));
 
