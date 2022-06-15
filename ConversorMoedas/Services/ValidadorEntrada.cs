@@ -11,9 +11,9 @@ namespace ConversorMoedas
     public class ValidadorEntrada
     {
  
-        public string _descricaoErros { get; set; }
+        public string DescricaoErros { get; set; }
 
-        public TiposErros _erros { get; set; }
+        public TiposErros Erros { get; set; }
         private List<ValidadorEntrada> _ListErrors { get; set; } = new List<ValidadorEntrada>();
 
 
@@ -25,9 +25,9 @@ namespace ConversorMoedas
 
             if(moedaOrigem == moedaDestino)
             {
-                validador._descricaoErros = "Erro: Moeda de origem não pode ser igual a moeda de destino";
+                validador.DescricaoErros = "Erro: Moeda de origem não pode ser igual a moeda de destino";
 
-                validador._erros = TiposErros.ErroMoeda;
+                validador.Erros = TiposErros.ErroMoeda;
 
                 _ListErrors.Add(validador);
 
@@ -39,9 +39,9 @@ namespace ConversorMoedas
             else if(!Formatomoeda(moedaOrigem) || !Formatomoeda(moedaDestino))
             {
 
-                validador._descricaoErros = "Erro: Formato da moeda inválido";
+                validador.DescricaoErros = "Erro: Formato da moeda inválido";
 
-                validador._erros = TiposErros.ErroMoeda;
+                validador.Erros = TiposErros.ErroMoeda;
 
                 _ListErrors.Add(validador);
 
@@ -66,9 +66,9 @@ namespace ConversorMoedas
             if (!Double.TryParse(Valor, out var R1))
             {
 
-                validador._descricaoErros = "Erro: Formato do valor inválido";
+                validador.DescricaoErros = "Erro: Formato do valor inválido";
 
-                validador._erros = TiposErros.ErroValor;
+                validador.Erros = TiposErros.ErroValor;
 
                 _ListErrors.Add(validador);
 
@@ -83,9 +83,9 @@ namespace ConversorMoedas
                 if(valorDouble <= 0 )
                 {
 
-                    validador._descricaoErros = "Erro: valor precisa ser maior que 0";
+                    validador.DescricaoErros = "Erro: valor precisa ser maior que 0";
 
-                    validador._erros = TiposErros.ErroValor;
+                    validador.Erros = TiposErros.ErroValor;
 
                     _ListErrors.Add(validador);
 
@@ -114,12 +114,12 @@ namespace ConversorMoedas
         public void Error( TiposErros erros)
         {
 
-            var listaNova = _ListErrors.Where(x => x._erros == erros).Distinct();
+            var listaNova = _ListErrors.Where(x => x.Erros == erros).Distinct();
 
             var listafinal = listaNova.Last();
 
 
-            Console.WriteLine(listafinal._descricaoErros);
+            Console.WriteLine(listafinal.DescricaoErros);
 
 
 

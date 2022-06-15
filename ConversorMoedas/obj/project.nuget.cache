@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "he3uc3qtXKG1LB1VaEs8g9R7iDgb+ny7PomqRqWoBpKv8GqXc2VxjrA+Y1NRGG9t6jIwrRRx4xhjV3vbVJl2pw==",
+  "dgSpecHash": "qSh5+J3ONKOKLo0fc8DJ/bkM2ERUxMIX5ehxWsPtUnj/C42Tu1WSDc650al6DUB9EO0TjlenJNc+vPpY2RLOZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
+  "projectFilePath": "C:\\Users\\bbarros\\source\\repos\\ConversorMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

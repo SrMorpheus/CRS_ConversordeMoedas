@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj": {}
+    "C:\\Users\\bbarros\\source\\repos\\ConversorMoedas\\ConversorMoedas\\ConversorMoedas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj": {
+    "C:\\Users\\bbarros\\source\\repos\\ConversorMoedas\\ConversorMoedas\\ConversorMoedas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
+        "projectUniqueName": "C:\\Users\\bbarros\\source\\repos\\ConversorMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
         "projectName": "ConversorMoedas",
-        "projectPath": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
-        "packagesPath": "C:\\Users\\apoio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\apoio\\Desktop\\Bruno\\Pessoal\\CRS\\Desafio\\CRS_ConversordeMoedas\\ConversorMoedas\\obj\\",
+        "projectPath": "C:\\Users\\bbarros\\source\\repos\\ConversorMoedas\\ConversorMoedas\\ConversorMoedas.csproj",
+        "packagesPath": "C:\\Users\\bbarros\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bbarros\\source\\repos\\ConversorMoedas\\ConversorMoedas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\apoio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bbarros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

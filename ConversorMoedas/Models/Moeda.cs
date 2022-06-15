@@ -17,6 +17,7 @@ namespace ConversorMoedas
 
         public Moeda(string moedaOrigem, string moedaDestino, double valor)
         {
+
             this.MoedaOrigem = moedaOrigem;
 
             this.MoedaDestino = moedaDestino;
@@ -31,7 +32,6 @@ namespace ConversorMoedas
         {
 
             return  $"?from={this.MoedaOrigem}&to={this.MoedaDestino}&amount={this.Valor}";
-
 
         }
 
